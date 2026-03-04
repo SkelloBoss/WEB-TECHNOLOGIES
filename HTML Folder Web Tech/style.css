@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left {
+    width: 25%;
+    background-color: #171c20;
+    color: white;
+    padding-top: 40px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.left button {
+    width: 100%;
+    padding: 12px;
+    margin: 2px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+    text-align: left;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.login-btn {
+    background-color: transparent;
+}
+
+.register-btn {
+    background-color: #2ecc71;
+}
+
+.left button:hover {
+    background-color: darkslateblue;
+}
+
+#LBtn {
+    background-color: #2ecc71;
+}
+
+#RBtn {
+    background-color: transparent;
+}
+
+
+.right {
+    width: 75%;
+    padding: 60px;
+    background-color: #ecf0f1;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.form-box {
+    width: 400px;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.CA {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.submit-btn-reg {
+    width: 100%;
+    padding: 15px;
+    margin-top: 25px;
+    background-color: #27ae60;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.submit-btn-reg:hover {
+    background-color: #218249;
+}
+
+.submit-btn-log {
+    width: 100%;
+    padding: 15px;
+    margin-top: 25px;
+    background-color: #122192;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.submit-btn-log:hover {
+    background-color: #218249;
+}
+
+.submit-btn-log {
+    width: 100%;
+    padding: 15px;
+    margin-top: 25px;
+    background-color: #27ae60;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.submit-btn-log:hover {
+    background-color: #360ea5;
+}
